@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.write('10214507042 阎格:sparkles:')
+st.write('kylie:sparkles:')
 st.markdown("# 长三角PM2.5监测数据")  # 标题
 
 # 读取数据存储到frame中
