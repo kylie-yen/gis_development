@@ -1,7 +1,7 @@
 from pyproj import transform,Proj
 import streamlit as st
 
-st.write('10214507042 阎格:sparkles:')
+st.write('kylie:sparkles:')
 
 # 计算东偏和北偏值
 meridian1 = 121+27/60+52/3600
