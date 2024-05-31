@@ -2,7 +2,7 @@ import streamlit as st
 import fiona
 from shapely.geometry import Point
 
-st.write('10214507042 阎格:sparkles:')
+st.write('kylie:sparkles:')
 schema = {'geometry': 'Point','properties': {'城市名': 'str:254', '经度': 'float:19.11', '纬度': 'float:19.11', '省名': 'str:254'}}
 with fiona.open('china_cities_prj.shp', encoding='utf-8', driver='ESRI Shapefile', schema=schema) as shp_data:
     with st.form(key="my_form"):
